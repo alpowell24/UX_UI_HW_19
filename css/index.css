@@ -3,6 +3,10 @@
   height: 50px;
 }
 
+.fadein {
+  opacity: 0;
+}
+
 body {
   display: grid;
   grid-template-columns: 1fr;
