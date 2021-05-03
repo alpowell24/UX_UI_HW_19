@@ -7,6 +7,12 @@
   opacity: 0;
 }
 
+.fadeinleft {
+  opacity: 0;
+  margin-left: -300px;
+  max-width: 100%;
+}
+
 body {
   display: grid;
   grid-template-columns: 1fr;
