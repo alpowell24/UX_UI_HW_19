@@ -167,11 +167,6 @@ button {
   border: 0;
 }
 
-button:hover {
-  background-color: #f88410;
-  font-weight: 800;
-}
-
 .footerLeft {
   height: 59px;
   display: flex;
@@ -204,6 +199,7 @@ button:hover {
 
 .skillsComponent {
   width: 433px;
+  height: 500px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -247,7 +243,7 @@ button:hover {
 
 .caseStudy {
   display: flex;
-  width: 1344px;
+  width: 1375px;
   padding-bottom: 50px;
   box-shadow: 4px 4px 16px rgba(249, 167, 86, 0.56);
   background-repeat: no-repeat;
@@ -276,6 +272,12 @@ button:hover {
   position: relative;
 }
 
+#caseStudyImage2Mobile {
+  width: 450px;
+  height: 375px;
+  position: relative;
+}
+
 #caseStudyImage2 {
   position: relative;
   top: 30;
@@ -287,8 +289,8 @@ button:hover {
 }
 
 #caseStudyImage2Mobile > img {
-  width: 600px;
-  height: 440px;
+  width: 450px;
+  height: 350px;
 }
 
 #caseStudyImage2Mobile {
@@ -391,5 +393,15 @@ button:hover {
   }
   #caseStudyImage2Mobile {
     display: flex;
+  }
+
+  #caseStudyOverview1 {
+    margin: 10px 40px;
+  }
+
+  #caseStudyImage1 > img {
+    width: 420px;
+    height: 375px;
+    right: 30;
   }
 }
