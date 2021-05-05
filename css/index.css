@@ -65,8 +65,12 @@ p {
   grid-area: heroSection;
   display: flex;
   justify-content: space-evenly;
-  padding-top: 20px;
+  padding-top: 10px;
   padding-bottom: 20px;
+}
+
+#navigationMobile {
+  display: none;
 }
 
 .navigationLeft {
@@ -75,7 +79,7 @@ p {
   margin-left: 40px;
 }
 
-.navigation {
+#navigationDesktop {
   display: flex;
   justify-content: space-between;
   grid-area: navigation;
@@ -99,7 +103,7 @@ p {
   border-radius: 5px;
 }
 
-.footer {
+#footerDesktop {
   display: flex;
   justify-content: space-between;
   grid-area: footer;
@@ -327,6 +331,10 @@ button {
   align-items: flex-end;
 }
 
+#footerMobile {
+  display: none;
+}
+
 @media only screen and (max-width: 600px) {
   body {
     grid-template-columns: auto;
@@ -337,6 +345,16 @@ button {
       "skillsSection"
       "caseStudySection"
       "footer";
+  }
+
+  #footerMobile {
+    grid-area: footer;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  #footerDesktop {
+    display: none;
   }
 
   .navigationLeft {
@@ -351,6 +369,7 @@ button {
     flex-direction: column;
     align-items: center;
     width: 100%;
+    padding-top: 0px;
   }
 
   #skillsSection {
@@ -419,15 +438,25 @@ button {
     right: 30;
   }
 
-  .navigation {
+  .websiteName > h1 {
+    font-size: 30px;
+  }
+
+  #navigationMobile {
     display: flex;
     justify-content: space-between;
     grid-area: navigation;
-    position: static;
     top: 0px;
+    background-color: black;
+    z-index: 1;
   }
 
-  .websiteName > h1 {
-    font-size: 30px;
+  #navigationDesktop {
+    display: none;
+  }
+
+  #caseStudy2 {
+    margin: 0px 0px;
+    background-image: url("../images/caseStudyTwoBackground.png");
   }
 }
