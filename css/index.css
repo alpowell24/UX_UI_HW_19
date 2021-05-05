@@ -17,7 +17,6 @@ body {
     "skillsSection"
     "caseStudySection"
     "footer";
-  padding: 10px;
   background-color: black;
   color: white;
 }
@@ -338,8 +337,6 @@ button {
       "skillsSection"
       "caseStudySection"
       "footer";
-    border-color: blue;
-    border-style: dashed;
   }
 
   .navigationLeft {
@@ -353,8 +350,6 @@ button {
   .heroSection {
     flex-direction: column;
     align-items: center;
-    border-color: red;
-    border-style: dashed;
     width: 100%;
   }
 
