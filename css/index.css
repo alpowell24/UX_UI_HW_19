@@ -326,9 +326,13 @@ button {
 }
 
 #caseStudyOverview2 {
-  text-align: right;
   margin: 0px 49px;
   align-items: flex-end;
+  text-align: right;
+}
+
+#caseStudyOverview2 > h2 {
+  text-align: right;
 }
 
 #footerMobile {
@@ -418,6 +422,14 @@ button {
 
   #caseStudyOverview2 {
     align-items: center;
+    text-align: center;
+  }
+
+  #caseStudyOverview1 > h2 {
+    text-align: center;
+  }
+
+  #caseStudyOverview2 > h2 {
     text-align: center;
   }
 
