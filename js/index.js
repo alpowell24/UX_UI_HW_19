@@ -25,3 +25,9 @@ $("button").hover(
 
     }
 );
+
+
+$("a").click(function () {
+    var pageId = $(this).attr("dataPage");
+    $("html, body").animate({ scrollTop: $("#" + pageId).offset().top }, 1000);
+});

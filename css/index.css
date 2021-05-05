@@ -73,6 +73,10 @@ p {
   display: flex;
   justify-content: space-between;
   grid-area: navigation;
+  position: sticky;
+  top: 0px;
+  background-color: black;
+  z-index: 1;
 }
 
 .heroBio {
@@ -131,11 +135,14 @@ nav a {
   font-size: 24px;
   font-family: Interstate;
   transition: color ease;
+  color: white;
+  text-decoration: none;
 }
 
 a:hover {
   color: #f9a756;
   font-weight: 500;
+  text-decoration: none;
 }
 
 .websiteName {
@@ -365,6 +372,11 @@ button {
   .heroBio {
     margin: 10px 10px;
     width: auto;
+    height: 680px;
+  }
+
+  html {
+    scroll-behavior: smooth;
   }
 
   .heroImage {
@@ -403,5 +415,17 @@ button {
     width: 420px;
     height: 375px;
     right: 30;
+  }
+
+  .navigation {
+    display: flex;
+    justify-content: space-between;
+    grid-area: navigation;
+    position: static;
+    top: 0px;
+  }
+
+  .websiteName > h1 {
+    font-size: 30px;
   }
 }
