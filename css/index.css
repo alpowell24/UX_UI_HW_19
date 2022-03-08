@@ -137,6 +137,11 @@ nav {
   transition: all;
 }
 
+.caseStudyOverview a {
+  text-decoration: none;
+  color: black;
+}
+
 .social img:hover {
   transform: translate(0px, -1.2px);
 }
