@@ -45,8 +45,8 @@ h2 {
 
 p {
   font-size: 24px;
-  font-family: Interstate;
-  font-weight: 300;
+  font-family: Nunito;
+  font-weight: 400;
   font-style: normal;
 }
 
@@ -148,8 +148,8 @@ nav {
 
 nav a {
   padding: 36px;
-  font-size: 24px;
-  font-family: Interstate;
+  font-size: 18px;
+  font-family: Nunito;
   transition: color ease;
   color: white;
   text-decoration: none;
@@ -167,9 +167,9 @@ a:hover {
 }
 
 .heroBio p {
-  font-size: 24px;
-  font-family: Interstate;
-  font-weight: 300;
+  font-size: 18px;
+  font-family: Nunito;
+  font-weight: 400;
   font-style: normal;
   line-height: 28.8px;
   padding-left: 20px;
@@ -243,9 +243,9 @@ button {
 
 .skillsComponent p {
   padding: 0px 33px;
-  font-size: 24px;
-  font-family: Interstate;
-  font-weight: 300;
+  font-size: 18px;
+  font-family: Nunito;
+  font-weight: 400;
   font-style: normal;
   margin-bottom: 20px;
   position: relative;
