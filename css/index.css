@@ -34,13 +34,14 @@ h1 {
 }
 
 h2 {
-  font-family: Interstate;
+  font-family: Fugaz One;
   font-size: 36px;
   font-style: normal;
-  font-weight: 700;
+  font-weight: 400;
   line-height: 43px;
   letter-spacing: 0em;
   text-align: left;
+  font-variant: small-caps;
 }
 
 p {
@@ -182,8 +183,8 @@ button {
   width: 200px;
   background-color: #f9a756;
   border-radius: 10px;
-  font-size: 24px;
-  font-family: Interstate;
+  font-size: 18px;
+  font-family: Nunito;
   font-weight: 700;
   margin-top: 10px;
   transition: background-color 0.5s ease;
